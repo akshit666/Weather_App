@@ -1,0 +1,545 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Nerko+One&display=swap');
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Medium.eot');
+  src: local('Carmen Sans Medium'), local('CarmenSans-Medium'),
+      url('CarmenSans-Medium.eot?#iefix') format('embedded-opentype'),
+      url('CarmenSans-Medium.woff2') format('woff2'),
+      url('CarmenSans-Medium.woff') format('woff'),
+      url('CarmenSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Bold.eot');
+  src: local('Carmen Sans Bold'), local('CarmenSans-Bold'),
+      url('CarmenSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('CarmenSans-Bold.woff2') format('woff2'),
+      url('CarmenSans-Bold.woff') format('woff'),
+      url('CarmenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-ExtraBold.eot');
+  src: local('Carmen Sans ExtraBold'), local('CarmenSans-ExtraBold'),
+      url('CarmenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('CarmenSans-ExtraBold.woff2') format('woff2'),
+      url('CarmenSans-ExtraBold.woff') format('woff'),
+      url('CarmenSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Heavy.eot');
+  src: local('Carmen Sans Heavy'), local('CarmenSans-Heavy'),
+      url('CarmenSans-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('CarmenSans-Heavy.woff2') format('woff2'),
+      url('CarmenSans-Heavy.woff') format('woff'),
+      url('CarmenSans-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Light.eot');
+  src: local('Carmen Sans Light'), local('CarmenSans-Light'),
+      url('CarmenSans-Light.eot?#iefix') format('embedded-opentype'),
+      url('CarmenSans-Light.woff2') format('woff2'),
+      url('CarmenSans-Light.woff') format('woff'),
+      url('CarmenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Regular.eot');
+  src: local('Carmen Sans Regular'), local('CarmenSans-Regular'),
+      url('CarmenSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('CarmenSans-Regular.woff2') format('woff2'),
+      url('CarmenSans-Regular.woff') format('woff'),
+      url('CarmenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-UltraLight.eot');
+  src: local('Carmen Sans UltraLight'), local('CarmenSans-UltraLight'),
+      url('CarmenSans-UltraLight.eot?#iefix') format('embedded-opentype'),
+      url('CarmenSans-UltraLight.woff2') format('woff2'),
+      url('CarmenSans-UltraLight.woff') format('woff'),
+      url('CarmenSans-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Thin.eot');
+  src: local('Carmen Sans Thin'), local('CarmenSans-Thin'),
+      url('CarmenSans-Thin.eot?#iefix') format('embedded-opentype'),
+      url('CarmenSans-Thin.woff2') format('woff2'),
+      url('CarmenSans-Thin.woff') format('woff'),
+      url('CarmenSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-SemiBold.eot');
+  src: local('Carmen Sans SemiBold'), local('CarmenSans-SemiBold'),
+      url('CarmenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('CarmenSans-SemiBold.woff2') format('woff2'),
+      url('CarmenSans-SemiBold.woff') format('woff'),
+      url('CarmenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: 'Carmen Sans';
+}
+
+/* .Hero {
+  background-image: url("../assets//Default.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+} */
+.Hero {
+  background-image: url("../assets//Default.jpg");
+
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+
+.sunrise {
+  background-image: url('../assets/Sunrise.jpg');
+}
+
+.cloudy {
+  background-image: url('../assets/Cloudy.jpg');
+}
+
+.Default {
+  background-image: url("../assets/Default.jpg");
+}
+
+.sunny {
+  background: url("../assets/sunshine.jpg");  
+}
+.Haze{
+  background-image: url("../assets/haze.jpg");
+}
+.lightning {
+  background-image: url('../assets/Lightning.jpg');
+}
+
+.night {
+  background-image: url('../assets/Night.jpg');
+}
+
+.snow {
+  background-image: url('../assets/Snow.avif');
+}
+
+.rain {
+  background-image: url('https://as1.ftcdn.net/v2/jpg/07/37/28/76/1000_F_737287685_qblAosAFZirz75GRwVbYuHPoQqvwqFXi.jpg');
+}
+.weather-info {
+  color: white;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.weather-info h1 {
+  font-family: 'carmen sans';
+  font-weight: 400;
+  font-size: 4rem;
+}
+.error-message{
+  margin-top: -22px;
+  color: red;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.logo img{
+  width: 5rem;
+}
+.upper-detail .time{
+  text-align: center;
+  font-size: 2rem;
+}
+.left {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  padding: 50px 60px;
+}
+.date-time{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.right {
+  /* height: 100vh; */
+  width: 25%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container button img {
+  width: 1.5rem;
+}
+
+.search-bar {
+  /* padding: 10px 15px; */
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  width: 80%;
+}
+
+.search-city {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+.Temp-wind{
+  margin-top: 1.7rem;
+}
+hr {
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+}
+.search-bar::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  /* Placeholder color */
+}
+
+.search-bar:focus {
+  outline: none; /* Removes the default outline */
+  border: none;  /* Removes the default border */
+}
+
+.Temp {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.windspeed{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 4rem;
+}
+.windspeed img{
+  width: 1rem;
+}
+.Wind {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  /* margin-bottom: 30px; */
+  font-size: 0.8rem;
+}
+
+
+
+
+/* .FeelsLike {
+  display: flex;
+  align-items: center;
+  margin-top: 46px;
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 21px;
+}
+.FeelsLike img{
+  width: 30px;
+  margin-right: 9%;
+
+} */
+.inner img {
+  width: 27px;
+  margin-left: 2%;
+  margin-right: 26px;
+  
+}
+.feelslike img, .pressure img, .minTemp img, .maxTemp img {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 16px;
+  border-radius: 10px;
+}
+
+
+.inner {
+  color: White;
+  display: flex;
+  /* align-items: center; */
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+/* .Lat img , .Lng img{
+  width: 30px;
+  margin-left: 21px;
+  margin-top: 21px;
+  margin-right: 37px;
+}
+
+.Lat , .Lng{
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+} */
+.more-info {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 72%;
+}
+
+@media screen and (max-width:1100px)
+{
+  .more-info{
+    max-width: 100%;
+  }
+  .sunrise-small img, .sunset-small img {
+    width: 36% !important;
+  }
+  .humidity img{
+    width: 26%;
+  }
+}
+@media screen and (max-width:768px)
+{
+  .Hero {
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+.right{
+  width: 100%;
+  padding: 0;
+}
+.Welcome{
+  font-size: 1rem;
+}
+.inner{
+  margin-top: unset;
+  margin-left: unset;
+}
+.inner img{
+  margin-left: unset;
+}
+.pressure-feelsLike{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 24px;
+  width: 100%;
+}
+.lng-lat{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 7px;
+  width: 100%;
+}
+
+.sunrise-small, .sunset-small, .humidity {
+  padding-right: 16px;
+}
+.weather-info h1 {
+  font-size: 3rem;
+}
+.logo img {
+  width: 3rem;
+}
+.unit-toggle-button {
+margin-bottom: 20px;
+}
+
+.upper-detail{
+  margin-bottom: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left{
+  width: unset;;
+}
+.search-city{
+  width: 46%;
+}
+.windspeed{
+  justify-content: center;
+}
+}
+
+.Welcome {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  font-family: "Baskervville SC", serif;
+}
+
+.Default-screen {
+  display: flex;
+  flex-direction: column;          
+  text-align: center;  
+  font-family: "Baskervville SC", serif;    
+}
+
+.Default-screen .Date, .Default-screen .Time{
+  font-size: 3.1rem;
+  color: black;
+  text-align: center;
+  font-family: "Baskervville SC", serif;  
+}
+
+.unit-toggle-button {
+    align-self: center;
+    margin-top: 1px;
+    padding: 0.5rem 1rem;
+    /* height: 34px; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    color: white;
+    border-radius: 11px;
+    /* width: 43%; */
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.sunrise-small, .sunset-small, .humidity {
+  width: 10rem;
+  display: flex;
+  align-items: center;
+}
+.sunrise-small img, .sunset-small img {
+  width: 45%;
+  margin-right: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1px;
+  border-radius: 10px;
+}
+.search-button {
+  background-color: transparent;
+  border: none;
+  width: 20%;
+  transition: background-color 0.3s ease;
+}
+
+
+/*for blur*/
+
+.weather-box {
+  background: rgba(0, 0, 0, 0.5); /* Dark translucent background */
+  color: white; /* White text color */
+  border-radius: 20px; /* Rounded corners */
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+  backdrop-filter: blur(10px); /* Adds a glassy blur effect */
+  font-family: Arial, sans-serif;
+}
+.weather-details{
+  display: flex;
+  flex-direction: column;
+}
+.weather-box .icon img {
+  width: 30px; /* Adjust the icon size */
+  height: 30px;
+}
+
+.weather-box .temperature {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.weather-box .location {
+  font-size: 18px;
+}
+
+.weather-box .condition {
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.9; /* Slightly reduced opacity for the weather condition */
+}
+
+.DetailsParaHeading{
+  font-size: 0.8rem;
+}
+.DetailsParaValue{
+  font-size: 1.6rem;
+}
+.humidityimg {
+  width: 3rem;
+  margin-right: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+}
+
